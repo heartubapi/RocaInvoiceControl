@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<meta charset="UTF-8">
+		<title>Invoice Form</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/validation/invoice_form_01/invoice_form_01.css"></style>
+		
+		<script type="text/javascript" src="js/validation/invoice_form_01/validation.js"></script>
+
+	</head>
+	<body>
+		<!--this form it's gonna be used to fill the data for the company that is giving the service-->
+		<!--it's a prototype for now-->
+		<form id="invoice_form_01" onsubmit="return validation();">
+			<fieldset>
+			<legend>Filling The Invoice</legend>
+			
+				<p>
+					<label for="company_name">Company Name:</label>
+					<input type="text" name="company_name" id="company_name">
+				</p>
+				
+				<p>
+					<label for="company_slogan">Company Slogan:</label>
+					<input type="text" name="company_slogan" id="company_slogan">
+				</p>
+				
+				<p>
+					<label for="stress_address">Stress Address:</label>
+					<input type="text" name="stress_address" id="stress_address">
+				</p>
+				
+				<p>
+					<label for="city">City:</label>
+					<input type="text" name="city" id="city">
+				</p>
+				
+				<p>
+					<label for="state">State:</label>
+					<input type="text" name="state" id="state">
+				</p>
+				
+				<p>
+					<label for="zip">Zip:</label>
+					<input type="text" name="zip" id="zip">
+				</p>
+				
+				<p>
+					<label for="phone">Phone:</label>
+					<input type="text" name="phone" id="phone">
+				</p>
+				
+				<p>
+					<label for="fax">Fax:</label>
+					<input type="text" name="fax" id="fax">
+				</p>
+				
+				<input type="submit" value="Register">
+				
+			</fieldset>
+		</form>
+	</body>
+</html>
